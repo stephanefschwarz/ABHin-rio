@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.stephane.hinario_ab.WellcomePage">
+
+    <item
+        android:id="@+id/search_view"
+        android:orderInCategory="1"
+        android:icon="@drawable/ic_menu_search"
+        android:title="search"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="ifRoom|collapseActionView" />
+
+
+</menu>
