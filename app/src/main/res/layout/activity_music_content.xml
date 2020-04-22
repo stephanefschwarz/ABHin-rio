@@ -34,11 +34,11 @@
 
             <TextView
                 android:id="@+id/music_content"
-                android:layout_margin="5dp"
+                android:layout_margin="7dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:gravity="center"
+                android:gravity="left|center_horizontal"
                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
                 android:text="Esse é um teste para ver o espaço que vai ocupar esse "/>
 
